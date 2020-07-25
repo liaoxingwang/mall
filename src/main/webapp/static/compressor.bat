@@ -1,5 +1,5 @@
 @echo off
-rem author HuangBingGui@163.com
+rem author liaoxingwang0218@163.com
 echo Compressor JS and CSS?
 pause
 cd %~dp0

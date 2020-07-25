@@ -17,7 +17,7 @@ $(function () {
         id: '10009',
         title: '论坛社区',
         close: false,
-        url: 'https://jeespring.kf5.com/hc/community/topic/',
+        url: 'https://mall.kf5.com/hc/community/topic/',
         urlType: "http"
     });*/
     /*addTabs({

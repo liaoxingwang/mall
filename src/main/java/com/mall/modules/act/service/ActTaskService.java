@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a> All rights reserved.
- */
 package com.mall.modules.act.service;
 
 import com.google.common.collect.Lists;
@@ -54,14 +51,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
-
 import java.io.InputStream;
 import java.util.*;
 
 /**
  * 流程定义相关Service
- * @author JeeSpring
- * @version 2013-11-03
+ * @author
+ * @version
  */
 @Service
 @Transactional(readOnly = true)

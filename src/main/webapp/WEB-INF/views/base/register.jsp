@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html style="overflow: auto;" class=" js csstransforms3d csstransitions csstransformspreserve3d"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>${fns:getConfig('productName')} 注册</title>
-	<meta name="author" content="http://www.jeespring.org/">
+	<meta name="author" content="http://www.mall.org/">
 	<meta name="renderer" content="webkit">
 	<meta http-equiv="X-UA-Compatible" content="IE=9,IE=10">
 	<meta http-equiv="Expires" content="0">

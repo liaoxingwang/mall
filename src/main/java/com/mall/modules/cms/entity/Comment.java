@@ -1,19 +1,15 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a>All rights reserved.
- */
 package com.mall.modules.cms.entity;
 
 import com.mall.common.persistence.AbstractBaseEntity;
 import com.mall.modules.sys.entity.User;
 import org.hibernate.validator.constraints.Length;
-
 import javax.validation.constraints.NotNull;
 import java.util.Date;
 
 /**
  * 评论Entity
- * @author JeeSpring
- * @version 2013-05-15
+ * @author
+ * @version
  */
 public class Comment extends AbstractBaseEntity<Comment> {
 

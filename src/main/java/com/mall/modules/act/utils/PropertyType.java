@@ -1,14 +1,11 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a> All rights reserved.
- */
 package com.mall.modules.act.utils;
 
 import java.util.Date;
 
 /**
  * 属性数据类型
- * @author JeeSpring
- * @version 2013-11-03
+ * @author
+ * @version
  */
 public enum PropertyType {
 	

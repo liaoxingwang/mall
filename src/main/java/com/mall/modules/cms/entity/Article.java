@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a>All rights reserved.
- */
 package com.mall.modules.cms.entity;
 
 import com.google.common.collect.Lists;
@@ -9,15 +6,14 @@ import com.mall.modules.cms.utils.CmsUtils;
 import com.mall.modules.sys.entity.User;
 import org.apache.commons.lang3.StringUtils;
 import org.hibernate.validator.constraints.Length;
-
 import javax.validation.constraints.NotNull;
 import java.util.Date;
 import java.util.List;
 
 /**
  * 文章Entity
- * @author JeeSpring
- * @version 2013-05-15
+ * @author
+ * @version
  */
 public class Article extends AbstractBaseEntity<Article> {
 

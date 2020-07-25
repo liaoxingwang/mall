@@ -31,9 +31,9 @@
                     <div style="text-align: center;font-size: 14px;color: #666;">${oaNotify.title}</div><br/>
                 </div>
                 <div class="ibox-content">
-                    <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud/attach_files" target="_blank">JeeSpringCloud介绍.docx</a><br><br>
-                    <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud/attach_files" target="_blank">JeeSpringCloud介绍功能初级.docx</a><br><br>
-                    <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud/attach_files" target="_blank">JeeSpringCloud中级培训文档.docx</a><br><br>
+                    <a href="" target="_blank">介绍.docx</a><br><br>
+                    <a href="" target="_blank">介绍功能初级.docx</a><br><br>
+                    <a href="" target="_blank">中级培训文档.docx</a><br><br>
                     <video id="vid1" loop="loop" width="100%" height="100%" onended=""  muted="muted" autobuffer="autobuffer" preload="auto" oncontextmenu="return false" data-hasaudio=""
                            style="background-color: white;opacity: 1;visibility: visible;height: 100%;width: 100%;object-fit:cover;object-position: center center;"
                            src="../static/common/login/images/flat-avatar1.mp4" controls></video>
@@ -47,13 +47,13 @@
                     <div style="text-align: center;font-size: 14px;color: #666;">${oaNotify.title}</div><br/>
                 </div>
                 <div class="ibox-content">
-                    <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud/attach_files" target="_blank">JeeSpringCloud部署初级.docx</a><br><br>
-                    <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud/attach_files" target="_blank">JeeSpringCloud部署高级.docx</a><br><br>
+                    <a href="" target="_blank">部署初级.docx</a><br><br>
+                    <a href="" target="_blank">部署高级.docx</a><br><br>
                     <video id="vid2" loop="loop" width="100%" height="100%" onended="" muted="muted" autobuffer="autobuffer" preload="auto" oncontextmenu="return false" data-hasaudio=""
                            style="background-color: white;opacity: 1;visibility: visible;height: 100%;width: 100%;object-fit:cover;object-position: center center;"
-                           src="../static/document/JeeSpring部署初级.mp4" controls></video>
-                    <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud/attach_files" target="_blank">JeeSpring部署初级.mp4</a><br><br>
-                    <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud/attach_files" target="_blank">JeeSpring部署高级.mp4</a><br><br>
+                           src="../static/document/" controls></video>
+                    <a href="" target="_blank">部署初级.mp4</a><br><br>
+                    <a href="" target="_blank">部署高级.mp4</a><br><br>
                 </div>
             </div>
         </div>
@@ -149,7 +149,7 @@
         <div class="col-sm-4 ui-sortable">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-                    <h5>JeeSpring 技术特点</h5>
+                    <h5>mall 技术特点</h5>
                 </div>
                 <div class="ibox-content" style="display: block;">
                     <ol>

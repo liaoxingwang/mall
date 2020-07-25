@@ -5,8 +5,8 @@
 <head>
 	<title>留言板</title>
 	<meta name="decorator" content="cms_default_${site.theme}"/>
-	<meta name="description" content="JeeSpring ${site.description}" />
-	<meta name="keywords" content="JeeSpring ${site.keywords}" />
+	<meta name="description" content="mall ${site.description}" />
+	<meta name="keywords" content="mall ${site.keywords}" />
 	<%@include file="/WEB-INF/views/modules/cms/front/include/head.jsp" %>
 	<link href="${ctxStatic}/jquery-validation/1.11.0/jquery.validate.min.css" type="text/css" rel="stylesheet" />
 	<script src="${ctxStatic}/jquery-validation/1.11.0/jquery.validate.min.js" type="text/javascript"></script>

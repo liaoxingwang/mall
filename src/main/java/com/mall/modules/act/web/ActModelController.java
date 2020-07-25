@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a> All rights reserved.
- */
 package com.mall.modules.act.web;
 
 import com.mall.common.persistence.Page;
@@ -13,14 +10,13 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
  * 流程模型相关Controller
- * @author JeeSpring
- * @version 2013-11-03
+ * @author
+ * @version
  */
 @Controller
 @RequestMapping(value = "${adminPath}/act/model")

@@ -49,7 +49,7 @@
                             <span class="help-inline">建议框架模块包：com.mall.modules;</span><br>
                             <span class="help-inline">如果自定义框架模块包：com.*.*;</span><br>
                             <span class="help-inline">需要在application.xml内配置type-aliases-package:com.mall,com.company,com.*.*;</span><br>
-                            <span class="help-inline">需要在JeeSpringDriver.java里面配置@ServletComponentScan;@ComponentScan;@MapperScan</span>
+                            <span class="help-inline">需要在mallDriver.java里面配置@ServletComponentScan;@ComponentScan;@MapperScan</span>
                         </div>
                     </div>
                     <div class="form-group">

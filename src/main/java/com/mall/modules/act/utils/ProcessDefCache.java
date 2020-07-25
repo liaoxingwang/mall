@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a> All rights reserved.
- */
 package com.mall.modules.act.utils;
 
 import com.mall.common.utils.CacheUtils;
@@ -10,13 +7,12 @@ import org.activiti.engine.impl.persistence.entity.ProcessDefinitionEntity;
 import org.activiti.engine.impl.pvm.process.ActivityImpl;
 import org.activiti.engine.repository.ProcessDefinition;
 import org.apache.commons.lang3.ObjectUtils;
-
 import java.util.List;
 
 /**
  * 流程定义缓存
- * @author JeeSpring
- * @version 2013-12-05
+ * @author
+ * @version
  */
 public class ProcessDefCache {
 

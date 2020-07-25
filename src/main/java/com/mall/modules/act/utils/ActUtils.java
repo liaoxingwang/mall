@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a> All rights reserved.
- */
 package com.mall.modules.act.utils;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
@@ -17,7 +14,6 @@ import com.mall.modules.sys.entity.Role;
 import com.mall.modules.sys.entity.User;
 import org.activiti.engine.impl.persistence.entity.GroupEntity;
 import org.activiti.engine.impl.persistence.entity.UserEntity;
-
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.util.HashMap;
@@ -26,8 +22,8 @@ import java.util.Map;
 
 /**
  * 流程工具
- * @author JeeSpring
- * @version 2013-11-03
+ * @author
+ * @version
  */
 public class ActUtils {
 

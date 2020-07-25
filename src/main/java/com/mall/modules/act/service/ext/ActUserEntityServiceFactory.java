@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a> All rights reserved.
- */
 package com.mall.modules.act.service.ext;
 
 import org.activiti.engine.impl.interceptor.Session;
@@ -10,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * Activiti User Entity Service Factory
- * @author JeeSpring
- * @version 2013-11-03
+ * @author
+ * @version
  */
 public class ActUserEntityServiceFactory implements SessionFactory {
 	

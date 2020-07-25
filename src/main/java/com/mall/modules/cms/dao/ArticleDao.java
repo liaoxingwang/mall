@@ -1,19 +1,15 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a>All rights reserved.
- */
 package com.mall.modules.cms.dao;
 
 import com.mall.common.persistence.InterfaceBaseDao;
 import com.mall.modules.cms.entity.Article;
 import com.mall.modules.cms.entity.Category;
 import org.apache.ibatis.annotations.Mapper;
-
 import java.util.List;
 
 /**
  * 文章DAO接口
- * @author JeeSpring
- * @version 2013-8-23
+ * @author
+ * @version
  */
 @Mapper
 public interface ArticleDao extends InterfaceBaseDao<Article> {

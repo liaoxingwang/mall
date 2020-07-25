@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a> All rights reserved.
- */
 package com.mall.modules.act.service.ext;
 
 import com.google.common.collect.Lists;
@@ -17,14 +14,13 @@ import org.activiti.engine.impl.persistence.entity.IdentityInfoEntity;
 import org.activiti.engine.impl.persistence.entity.UserEntity;
 import org.activiti.engine.impl.persistence.entity.UserEntityManager;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Map;
 
 /**
  * Activiti User Entity Service
- * @author JeeSpring
- * @version 2013-11-03
+ * @author
+ * @version
  */
 @Service
 public class ActUserEntityService extends UserEntityManager {

@@ -163,9 +163,9 @@ userfiles:
   basedir: /data/mall/upload
 #系统发生邮件服务账号密码
 email:
-  from: 516821420@qq.com
-  fromName: jeespring
-  username: 516821420xx2@qq.com
+  from: 807928930@qq.com
+  fromName: mall
+  username: 807928930@qq.com
   password: ywaytlglrrgybjce22
 # Shiro权限配置
 shiro:

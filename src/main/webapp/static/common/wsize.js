@@ -1,8 +1,8 @@
 /*!
- * Copyright &copy; 2015-2020 <a href="http://www.jeespring.org/">jeespring</a> All rights reserved.
+ * Copyright &copy; 2015-2020 <a href="http://www.mall.org/">mall</a> All rights reserved.
  * 
  * 主框架窗口大小调整
- * @author jeespring
+ * @author mall
  * @version 2013-11-09
  */
 

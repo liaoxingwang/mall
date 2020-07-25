@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a>All rights reserved.
- */
 package com.mall.modules.cms.entity;
 
 import com.mall.common.persistence.AbstractBaseEntity;
@@ -10,8 +7,8 @@ import org.hibernate.validator.constraints.Length;
 
 /**
  * 站点Entity
- * @author JeeSpring
- * @version 2013-05-15
+ * @author
+ * @version
  */
 public class Site extends AbstractBaseEntity<Site> {
 	

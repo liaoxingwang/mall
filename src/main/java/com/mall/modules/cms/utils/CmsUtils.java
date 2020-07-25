@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a>All rights reserved.
- */
 package com.mall.modules.cms.utils;
 
 import com.google.common.collect.Lists;
@@ -27,8 +24,8 @@ import java.util.Map;
 
 /**
  * 内容管理工具类
- * @author JeeSpring
- * @version 2013-5-29
+ * @author
+ * @version
  */
 public class CmsUtils {
 	

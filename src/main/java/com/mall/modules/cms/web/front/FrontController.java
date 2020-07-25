@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a>All rights reserved.
- */
 package com.mall.modules.cms.web.front;
 
 import com.google.common.collect.Lists;
@@ -16,7 +13,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
@@ -24,8 +20,8 @@ import java.util.List;
 
 /**
  * 网站Controller
- * @author JeeSpring
- * @version 2013-5-29
+ * @author
+ * @version
  */
 @Controller
 @RequestMapping(value = "${frontPath}")

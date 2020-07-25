@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html style="overflow: auto;" class=" js csstransforms3d csstransitions csstransformspreserve3d"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>${fns:getConfig('productName')} 登录</title>
-	<meta name="author" content="http://www.jeespring.org/">
+	<meta name="author" content="http://www.mall.org/">
 	<meta name="renderer" content="webkit">
 	<meta http-equiv="X-UA-Compatible" content="IE=9,IE=10">
 	<meta http-equiv="Expires" content="0">
@@ -106,9 +106,9 @@
 				   style="display:none;background-color: white;opacity: 1;visibility: visible;position: absolute;top: 0px;bottom: 0px;left: 0px;right: 0px;height: 100%;width: 100%;object-fit:cover;object-position: center center;"
 				   src="../static/common/login/images/flat-avatar1.mp4"></video>
 			<div id="menu" style="z-index: 10000;position: absolute;top: 0px;left: 0px;border-radius: 3px;padding: 10px;width: 100%;margin: auto 50px;">
-				<a target="_blank" href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud" style="float: left;color: #fff;" class="btn">介绍</a>
-				<a target="_blank" href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud/wikis/pages" style="float: left;color: #fff;" class="btn">在线文档</a>
-				<a target="_blank" href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud/attach_files" style="float: left;color: #fff;" class="btn">帮助</a>
+				<a target="_blank" href="" style="float: left;color: #fff;" class="btn">介绍</a>
+				<a target="_blank" href="" style="float: left;color: #fff;" class="btn">在线文档</a>
+				<a target="_blank" href="" style="float: left;color: #fff;" class="btn">帮助</a>
 			</div>
 		<div class="row" id="loginPage" style="padding: 3em;">
 			<div class="col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4">
@@ -139,17 +139,17 @@
 					<a href="${ctx}/register" class="btn btn-white btn-outline btn-lg btn-rounded progress-login">注册</a>
 					&nbsp;
 					<input type="submit" class="btn btn-white btn-outline btn-lg btn-rounded progress-login" value="登录" >
-					<div style="padding-top: 20px;">© 2018 All Rights Reserved. <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud"> JeeSpring</a></div>
+					<div style="padding-top: 20px;">© 2018 All Rights Reserved. </div>
 				</form>
 			</div>			
 		</div>
 
 		<div id="hplaT" class="hidden-xs" style="position: absolute;bottom: 0px;right: 0px;/* background: rgba(255,255,255,.2); */border: 1px solid rgba(255,255,255,.3);border-radius: 3px;padding: 10px;width: 30%;">
-			<a class="search" target="_blank" href="https://cn.bing.com/search?q=jeespring" style="color:#fff;text-decoration:none;"><div id="hplaTtl"></div></a>
+			<a class="search" target="_blank" href="https://cn.bing.com/search?q=mall" style="color:#fff;text-decoration:none;"><div id="hplaTtl"></div></a>
 			<input type="button" class="btn btn-white btn-outline btn-rounded" value="刷新" style="float: right;" onclick="readyInfo()">
 			<input type="button" class="btn btn-white btn-outline btn-rounded" value="播放" style="float: right;" onclick="$('#vid').show(1000);document.getElementById('vid').play()">
 			<input type="button" class="btn btn-white btn-outline btn-rounded" value="停止" style="float: right;" onclick="$('#vid').hide(1000);document.getElementById('vid').pause()">
-			<a class="search btn btn-white btn-outline btn-rounded" style="float: right;" href="https://cn.bing.com/search?q=jeespring">搜索</a>
+			<a class="search btn btn-white btn-outline btn-rounded" style="float: right;" href="https://cn.bing.com/search?q=mall">搜索</a>
 			<input type="button" class="btn btn-white btn-outline btn-rounded" value="显示" style="float: left;" onclick="$('#loginPage').show(1000);">
 			<input type="button" class="btn btn-white btn-outline btn-rounded" value="隐藏" style="float: left;" onclick="$('#loginPage').hide(1000);">
 

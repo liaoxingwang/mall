@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a>All rights reserved.
- */
 package com.mall.modules.cms.service;
 
 import com.mall.common.persistence.Page;
@@ -12,8 +9,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 /**
  * 留言Service
- * @author JeeSpring
- * @version 2013-01-15
+ * @author
+ * @version
  */
 @Service
 @Transactional(readOnly = true)

@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a>All rights reserved.
- */
 package com.mall.modules.cms.service;
 
 import com.alibaba.fastjson.JSON;
@@ -23,15 +20,14 @@ import org.apache.commons.lang3.time.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 /**
  * 文章Service
- * @author JeeSpring
- * @version 2013-05-15
+ * @author
+ * @version
  */
 @Service
 @Transactional(readOnly = true)

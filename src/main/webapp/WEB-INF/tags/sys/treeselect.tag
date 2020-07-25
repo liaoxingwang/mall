@@ -41,11 +41,11 @@
         if ($("#${id}Button").hasClass("disabled")) {
             return true;
         }
-        var jeeSpringLayer;
-        if(top.layer) jeeSpringLayer=top.layer;
-        else jeeSpringLayer=layer;
+        var mallLayer;
+        if(top.layer) mallLayer=top.layer;
+        else mallLayer=layer;
         // 正常打开
-        jeeSpringLayer.open({
+        mallLayer.open({
             type: 2,
             area: ['300px', '420px'],
             title: "选择${title}",
@@ -72,16 +72,16 @@
                     if (nodes[i].isParent) {
                         //top.$.jBox.tip("不能选择父节点（"+nodes[i].name+"）请重新选择。");
                         //layer.msg('有表情地提示');
-                        jeeSpringLayer.msg("不能选择父节点（" + nodes[i].name + "）请重新选择。", {icon: 0});
+                        mallLayer.msg("不能选择父节点（" + nodes[i].name + "）请重新选择。", {icon: 0});
                         return false;
                     }//</c:if><c:if test="${not empty module && selectScopeModule}">
                     if (nodes[i].module == "") {
                         //top.$.jBox.tip("不能选择公共模型（"+nodes[i].name+"）请重新选择。");
-                        jeeSpringLayer.msg("不能选择公共模型（" + nodes[i].name + "）请重新选择。", {icon: 0});
+                        mallLayer.msg("不能选择公共模型（" + nodes[i].name + "）请重新选择。", {icon: 0});
                         return false;
                     } else if (nodes[i].module != "${module}") {
                         //top.$.jBox.tip("不能选择当前栏目以外的栏目模型，请重新选择。");
-                        jeeSpringLayer.msg("不能选择当前栏目以外的栏目模型，请重新选择。", {icon: 0});
+                        mallLayer.msg("不能选择当前栏目以外的栏目模型，请重新选择。", {icon: 0});
                         return false;
                     }//</c:if>
                     ids.push(nodes[i].id);
@@ -91,7 +91,7 @@
                 $("#${id}Id").val(ids.join(",").replace(/u_/ig, ""));
                 $("#${id}Name").val(names.join(","));
                 $("#${id}Name").focus();
-                jeeSpringLayer.close(index);
+                mallLayer.close(index);
             },
             cancel: function (index) { //或者使用btn2
                 //按钮【按钮二】的回调

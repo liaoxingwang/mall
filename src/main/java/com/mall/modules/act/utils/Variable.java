@@ -1,19 +1,15 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a> All rights reserved.
- */
 package com.mall.modules.act.utils;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.google.common.collect.Maps;
 import com.mall.common.utils.StringUtils;
 import org.apache.commons.beanutils.ConvertUtils;
-
 import java.util.Map;
 
 /**
  * 流程变量对象
- * @author JeeSpring
- * @version 2013-11-03
+ * @author
+ * @version
  */
 public class Variable {
 

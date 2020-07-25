@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a> All rights reserved.
- */
 package com.mall.modules.act.web;
 
 import com.mall.common.persistence.Page;
@@ -19,7 +16,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.xml.stream.XMLStreamException;
@@ -30,8 +26,8 @@ import java.util.List;
 
 /**
  * 流程定义相关Controller
- * @author JeeSpring
- * @version 2013-11-03
+ * @author
+ * @version
  */
 @Controller
 @RequestMapping(value = "${adminPath}/act/process")

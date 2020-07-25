@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
 
-    <title>JeeSpringCloud</title>
+    <title>mall</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="description" content="">
@@ -46,7 +46,7 @@
                 <span class="icon icon-bar"></span>
             </button>
             <!-- lOGO -->
-            <a href="${ctx}/index-1${fns:getUrlSuffix()}" class="navbar-brand">JeeSpringCloud</a>
+            <a href="${ctx}/index-1${fns:getUrlSuffix()}" class="navbar-brand">mall</a>
         </div>
 
         <!-- MENU LINKS -->
@@ -59,7 +59,8 @@
                         <li>
                             <a href="${category.url}" class="smoothScroll">${category.name}</a>
                         </li>
-                    </c:if></c:forEach>
+                    </c:if>
+                </c:forEach>
             </ul>
         </div>
 
@@ -75,12 +76,12 @@
 
             <div class="col-md-8 col-sm-12">
                 <div class="home-text">
-                    <c:set var="article" value="${fnc:getArticle('2')}"/>
+                    <%--<c:set var="article" value="${fnc:getArticle('2')}"/>
                     <h1>${fns:abbr(article.title,28)}</h1>
                     <p>${fns:abbr(fns:replaceHtml(article.description),260)}</p>
                     <ul class="section-btn">
                         <a href="${article.url}" class="smoothScroll"><span data-hover="Discover More">查看详情</span></a>
-                    </ul>
+                    </ul>--%>
                 </div>
             </div>
 
@@ -101,8 +102,8 @@
         <div class="row">
             <div class="col-md-offset-1 col-md-10 col-sm-12">
                 <div class="about-info">
-                    <h1>案例</h1>
-                    <h4>（一款免费开源的JAVA互联网云快速开发平台）微服务分布式代码生成的敏捷开发系统架构。</h4>
+                    <%--<h1>案例</h1>
+                    <h4>（一款免费开源的JAVA互联网云快速开发平台）微服务分布式代码生成的敏捷开发系统架构。</h4>--%>
                 </div>
             </div>
         </div>
@@ -364,7 +365,7 @@
             <div class="clearfix"></div>
             <div class="col-md-12 col-sm-12">
                 <div class="copyright-text">
-                    <p>Copyright © 2018 JeeSpringCloud</p>
+                    <p>Copyright © 2018 mall</p>
                 </div>
             </div>
 

@@ -14,4 +14,4 @@
 <c:set var="ctx" value="${pageContext.request.contextPath}${fns:getAdminPath()}"/>
 <c:set var="ctxStatic" value="${pageContext.request.contextPath}/static"/>
 <c:set var="ctxStaticViews" value="${pageContext.request.contextPath}/staticViews"/>
-<c:set var="ctxJeeSpringStatic" value="${pageContext.request.contextPath}/jeeSpringStatic"/>
+<c:set var="ctxmallStatic" value="${pageContext.request.contextPath}/mallStatic"/>

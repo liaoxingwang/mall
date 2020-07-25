@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a>All rights reserved.
- */
 package com.mall.modules.cms.entity;
 
 import com.google.common.collect.Lists;
@@ -9,14 +6,13 @@ import com.mall.common.persistence.TreeEntity;
 import com.mall.modules.cms.utils.CmsUtils;
 import com.mall.modules.sys.entity.Office;
 import org.hibernate.validator.constraints.Length;
-
 import java.util.Date;
 import java.util.List;
 
 /**
  * 栏目Entity
- * @author JeeSpring
- * @version 2013-05-15
+ * @author
+ * @version
  */
 public class Category extends TreeEntity<Category> {
 

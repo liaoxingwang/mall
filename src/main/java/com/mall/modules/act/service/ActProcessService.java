@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a> All rights reserved.
- */
 package com.mall.modules.act.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -26,7 +23,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
-
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
@@ -37,8 +33,8 @@ import java.util.zip.ZipInputStream;
 
 /**
  * 流程定义相关Controller
- * @author JeeSpring
- * @version 2013-11-03
+ * @author
+ * @version
  */
 @Service
 @Transactional(readOnly = true)

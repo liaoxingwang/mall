@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a>All rights reserved.
- */
 package com.mall.modules.cms.entity;
 
 import com.mall.common.config.Global;
@@ -10,8 +7,8 @@ import org.hibernate.validator.constraints.NotBlank;
 
 /**
  * 文章Entity
- * @author JeeSpring
- * @version 2013-01-15
+ * @author
+ * @version
  */
 public class ArticleData extends AbstractBaseEntity<ArticleData> {
 

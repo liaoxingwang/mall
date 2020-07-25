@@ -1,6 +1,3 @@
-/**
- * Copyright &copy; 2012-2016 <a href="https://gitee.com/JeeHuangBingGui/jeeSpringCloud">JeeSpring</a> All rights reserved.
- */
 package com.mall.modules.act.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -24,7 +21,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
 import javax.servlet.http.HttpServletResponse;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -33,8 +29,8 @@ import java.util.List;
 
 /**
  * 流程模型相关Controller
- * @author JeeSpring
- * @version 2013-11-03
+ * @author
+ * @version
  */
 @Service
 @Transactional(readOnly = true)
