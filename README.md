@@ -1,2 +1,1 @@
 # mallcoding
-规范
